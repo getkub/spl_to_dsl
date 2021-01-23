@@ -1,0 +1,1 @@
+host="abc*" status=200 user=joe*| stats count(host) by status, user| findkeywords status by user

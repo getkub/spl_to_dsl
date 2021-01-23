@@ -1,0 +1,1 @@
+host="abc*" status="20*"| stats pct90(status)

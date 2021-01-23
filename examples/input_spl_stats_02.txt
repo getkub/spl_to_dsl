@@ -1,0 +1,1 @@
+host="abc*" status=200| stats count(host)

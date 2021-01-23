@@ -1,1 +1,1 @@
-* | bucket timestamp span=1.5h | predict avg(resp_time) window=18 alpha=0.7 beta=0.7
+* | bucket timestamp span=2h | predict avg(resp_time) window=18 alpha=0.7 beta=0.7
